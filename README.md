@@ -43,7 +43,7 @@ git clone https://github.com/cuongtr1704/ToDodudu.git
 cd Task3
 ```
 
-2. **Update MongoDB connection string:**
+2. **Update MongoDB connection string in "appsettings.json":**
 
 ```json
     "MongoDB": {
