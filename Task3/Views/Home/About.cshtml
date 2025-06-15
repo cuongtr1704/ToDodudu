@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+<div class="text-white py-5 px-3" style="min-height: 70vh;">
+    <div class="container">
+        <h1 class="display-5 fw-bold text-primary mb-4">About ToDodudu</h1>
+        <p class="lead">
+            <strong>ToDodudu</strong> is a minimalist, fast, and secure task management app built with:
+        </p>
+
+        <ul class="list-group list-group-flush mb-4">
+            <li class="list-group-item bg-transparent text-light">+ ASP.NET Core MVC</li>
+            <li class="list-group-item bg-transparent text-light">+ MongoDB as NoSQL Database</li>
+            <li class="list-group-item bg-transparent text-light">+ Password Hashing with ASP.NET Identity</li>
+            <li class="list-group-item bg-transparent text-light">+ Session-based Authentication</li>
+            <li class="list-group-item bg-transparent text-light">+ Bootstrap 5 UI</li>
+        </ul>
+
+        <p>
+            Designed for simplicity, speed, and clarity, ToDodudu helps users focus on what matters most:
+            <em>getting things done</em>. Whether you're managing daily chores or long-term goals,
+            ToDodudu offers a distraction-free, intuitive experience.
+        </p>
+
+        <div class="mt-4">
+            <a asp-controller="Home" asp-action="Index" class="btn btn-outline-light me-2">← Back to Home</a>
+            <a asp-controller="Todo" asp-action="Index" class="btn btn-outline-success">Go to My Todo List</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 75vh;">
+    <div class="card p-4 shadow" style="background-color: #2b2b2b; color: #f1f1f1; width: 100%; max-width: 400px;">
+        <h3 class="mb-3 text-center">Login to ToDodudu</h3>
+
+        <form method="post" asp-action="Login">
+            <div class="mb-3">
+                <label class="form-label">Username</label>
+                <input name="username" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" name="password" class="form-control" required />
+            </div>
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger py-2">@ViewBag.Error</div>
+            }
+
+            <button type="submit" class="btn btn-success w-100 mt-2">Login</button>
+        </form>
+
+        <p class="text-center mt-3">
+            Don't have an account?
+            <a asp-action="Register" class="text-info">Register here</a>
+        </p>
+    </div>
+</div>

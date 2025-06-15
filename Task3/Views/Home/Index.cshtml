@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "HomePage";
+    bool isLoggedIn = ViewBag.IsLoggedIn ?? false;
+    string name = ViewBag.UserName as string;
+}
+
+<div class="text-center py-5" style="min-height: 70vh;">
+    <h1 class="display-4 fw-bold text-light">Welcome to <span class="text-primary">ToDodudu</span></h1>
+
+    @if (isLoggedIn)
+    {
+        <p class="lead mt-3">Hi, <strong>@name</strong>!!! You're all set to manage your tasks efficiently.</p>
+        <a asp-controller="Todo" asp-action="Index" class="btn btn-lg btn-outline-success mt-4">Go to My Todo List</a>
+    }
+    else
+    {
+        <p class="lead mt-3" style="color:white">Your simple, fast Todo List app – built with ASP.NET Core & MongoDB.</p>
+        <a asp-controller="Account" asp-action="Login" class="btn btn-lg btn-outline-light mt-4">Get Started</a>
+    }
+</div>

@@ -1,0 +1,70 @@
+﻿@model List<Task3.Models.TodoItem>
+
+@{
+    ViewData["Title"] = "My Todo List";
+    string currentFilter = ViewBag.Filter ?? "all";
+    string userName = ViewBag.UserName ?? "";
+}
+
+<div class="container py-4">
+    <section class="p-4 shadow-sm rounded-3" style="background-color: #2a2a2a;">
+
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="text-light mb-0">Your List</h2>
+            <a asp-action="Create" class="btn btn-success">+ Add Task</a>
+        </div>
+
+        <div class="btn-group mb-4" role="group">
+            <a class="btn btn-outline-light @(currentFilter == "all" ? "active" : "")" asp-action="Index" asp-route-filter="all">All</a>
+            <a class="btn btn-outline-light @(currentFilter == "done" ? "active" : "")" asp-action="Index" asp-route-filter="done">Completed</a>
+            <a class="btn btn-outline-light @(currentFilter == "undone" ? "active" : "")" asp-action="Index" asp-route-filter="undone">Incomplete</a>
+        </div>
+
+        @if (Model.Count == 0)
+        {
+            <div class="alert alert-secondary text-center fw-bold border border-light">
+                No tasks found for this filter.
+            </div>
+        }
+        else
+        {
+            <div class="table-responsive">
+                <table class="table align-middle shadow-sm" style="background-color: transparent;">
+                    <thead class="text-light border-bottom">
+                        <tr>
+                            <th>Task</th>
+                            <th>Status</th>
+                            <th style="width: 200px;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var task in Model)
+                        {
+                            <tr style="color: #e0e0e0;">
+                                <td class="task-title">@task.Title</td>
+                                <td>
+                                    @if (task.IsDone)
+                                    {
+                                        <span class="badge bg-success px-3 py-2">Done</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-warning text-dark px-3 py-2">Pending</span>
+                                    }
+                                </td>
+                                <td>
+                                    <div class="d-flex justify-content-between gap-2 todo-actions">
+                                        <a class="btn btn-outline-light btn-sm flex-fill" asp-action="Toggle" asp-route-id="@task.Id">Toggle</a>
+                                        <a class="btn btn-outline-primary btn-sm flex-fill" asp-action="Edit" asp-route-id="@task.Id">Edit</a>
+                                        <a class="btn btn-outline-danger btn-sm flex-fill" asp-action="Delete" asp-route-id="@task.Id">Delete</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+
+    </section>
+</div>

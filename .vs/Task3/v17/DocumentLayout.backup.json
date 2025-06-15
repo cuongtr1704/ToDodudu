@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task3-14_06_2025\\task3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|solutionrelative:task3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task3-14_06_2025\\task3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|solutionrelative:task3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task3-14_06_2025\\task3\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|solutionrelative:task3\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task3-14_06_2025\\task3\\views\\todo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|solutionrelative:task3\\views\\todo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task3-14_06_2025\\task3\\views\\todo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|solutionrelative:task3\\views\\todo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task3-14_06_2025\\task3\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|solutionrelative:task3\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task3-14_06_2025\\task3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|solutionrelative:task3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task3-14_06_2025\\task3\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|solutionrelative:task3\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task3-14_06_2025\\task3\\controllers\\authenticatedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F53A4E8-4200-4A3E-9BAB-9AD84511A944}|Task3\\Task3.csproj|solutionrelative:task3\\controllers\\authenticatedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\appsettings.json",
+              "RelativeDocumentMoniker": "Task3\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\appsettings.json",
+              "RelativeToolTip": "Task3\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-15T06:31:43.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "Task3\\Controllers\\TodoController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "Task3\\Controllers\\TodoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T05:31:38.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthenticatedController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Controllers\\AuthenticatedController.cs",
+              "RelativeDocumentMoniker": "Task3\\Controllers\\AuthenticatedController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Controllers\\AuthenticatedController.cs",
+              "RelativeToolTip": "Task3\\Controllers\\AuthenticatedController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T05:30:19.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Views\\Todo\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Task3\\Views\\Todo\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Views\\Todo\\Edit.cshtml",
+              "RelativeToolTip": "Task3\\Views\\Todo\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T05:24:13.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Views\\Todo\\Create.cshtml",
+              "RelativeDocumentMoniker": "Task3\\Views\\Todo\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Views\\Todo\\Create.cshtml",
+              "RelativeToolTip": "Task3\\Views\\Todo\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T05:24:00.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Task3\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Task3\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-15T05:13:28.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Views\\Todo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Task3\\Views\\Todo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Views\\Todo\\Index.cshtml",
+              "RelativeToolTip": "Task3\\Views\\Todo\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBgAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T04:59:42.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Task3\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Task3\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T04:52:29.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Task3\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task3-14_06_2025\\Task3\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Task3\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T04:52:28.098Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
